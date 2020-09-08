@@ -52,6 +52,10 @@ img {
     top: 0px;
     padding: 0 30px;
     z-index: 100;
+    transition: 0.5s;
+}
+.navbar.top {
+    background: transparent;
 }
 
 .navbar ul {
