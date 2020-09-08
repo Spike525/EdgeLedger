@@ -240,10 +240,10 @@ img {
 }
 
 .footer .social {
-    width: 20vw;
+    width: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer .social a {
@@ -253,3 +253,31 @@ img {
 .footer .social a:hover {
     color: #28a745;
 }
+/*  Mobile */
+
+@media(max-width: 768px){
+    .hero .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 10px;
+    }
+    .navbar .logo {
+        margin-bottom: 0;
+    }
+    .navbar ul {
+        padding: 0;
+    }
+    .hero .navbar a {
+        padding: 5px;
+    }
+    .flex-items {
+        flex-direction: column;
+    }
+    .flex-columns .column, .flex-grid .column {
+        flex: 100% ;
+        max-width: 100% ;
+    }
+    .team img {
+        width: 70%;
+    }
+} 
